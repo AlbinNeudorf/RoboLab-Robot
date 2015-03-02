@@ -1,7 +1,7 @@
 Archive member included because of file (symbol)
 
 /cygdrive/C/cygwin/nxtOSEK/ecrobot/../ecrobot/libecrobot.a(ecrobot_interface.o)
-                              build/ecrobot_base.o (ecrobot_get_battery_voltage)
+                              build/src/main.o (ecrobot_set_motor_speed)
 /cygdrive/C/cygwin/nxtOSEK/ecrobot/../ecrobot/libecrobot.a(colorsensor.o)
                               /cygdrive/C/cygwin/nxtOSEK/ecrobot/../ecrobot/libecrobot.a(ecrobot_interface.o) (colorsensor_init)
 /cygdrive/C/cygwin/nxtOSEK/ecrobot/../ecrobot/libecrobot.a(osek_hook.o)
@@ -869,6 +869,7 @@ ecrobot_set_light_sensor_inactive                 /cygdrive/C/cygwin/nxtOSEK/ecr
 ecrobot_set_motor_mode_speed                      /cygdrive/C/cygwin/nxtOSEK/ecrobot/../ecrobot/libecrobot.a(ecrobot_interface.o)
 ecrobot_set_motor_rev                             /cygdrive/C/cygwin/nxtOSEK/ecrobot/../ecrobot/libecrobot.a(ecrobot_interface.o)
 ecrobot_set_motor_speed                           /cygdrive/C/cygwin/nxtOSEK/ecrobot/../ecrobot/libecrobot.a(ecrobot_interface.o)
+                                                  build/src/main.o
 ecrobot_set_name_usb                              /cygdrive/C/cygwin/nxtOSEK/ecrobot/../ecrobot/libecrobot.a(ecrobot_usb.o)
                                                   /cygdrive/C/cygwin/nxtOSEK/ecrobot/../ecrobot/libecrobot.a(flash_loader.oram)
 ecrobot_set_nxtcolorsensor                        /cygdrive/C/cygwin/nxtOSEK/ecrobot/../ecrobot/libecrobot.a(ecrobot_interface.o)
@@ -877,7 +878,6 @@ ecrobot_sint_var_monitor                          /cygdrive/C/cygwin/nxtOSEK/ecr
 ecrobot_sound_tone                                /cygdrive/C/cygwin/nxtOSEK/ecrobot/../ecrobot/libecrobot.a(ecrobot_interface.o)
 ecrobot_sound_wav                                 /cygdrive/C/cygwin/nxtOSEK/ecrobot/../ecrobot/libecrobot.a(ecrobot_interface.o)
 ecrobot_status_monitor                            /cygdrive/C/cygwin/nxtOSEK/ecrobot/../ecrobot/libecrobot.a(ecrobot_interface.o)
-                                                  build/src/main.o
 ecrobot_term_RCX_power_source                     /cygdrive/C/cygwin/nxtOSEK/ecrobot/../ecrobot/libecrobot.a(ecrobot_interface.o)
 ecrobot_term_bt_connection                        build/ecrobot_bluetooth.o
 ecrobot_term_i2c                                  /cygdrive/C/cygwin/nxtOSEK/ecrobot/../ecrobot/libecrobot.a(ecrobot_interface.o)
@@ -911,7 +911,6 @@ get_OS_flag                                       build/ecrobot_base.o
                                                   build/syslib/at91sam7s-gnu/lego_nxt/hw_sys_timer.oram
 get_device_status                                 /cygdrive/C/cygwin/nxtOSEK/ecrobot/../ecrobot/libecrobot.a(ecrobot_interface.o)
 has_flash_request                                 /cygdrive/C/cygwin/nxtOSEK/ecrobot/../ecrobot/libecrobot.a(flash_loader.oram)
-hello_world                                       build/src/main.o
 i2c_busy                                          /cygdrive/C/cygwin/nxtOSEK/ecrobot/../ecrobot/libecrobot.a(i2c.oram)
                                                   /cygdrive/C/cygwin/nxtOSEK/ecrobot/../ecrobot/libecrobot.a(ecrobot_interface.o)
 i2c_disable                                       /cygdrive/C/cygwin/nxtOSEK/ecrobot/../ecrobot/libecrobot.a(i2c.oram)
@@ -981,6 +980,7 @@ memset                                            /cygdrive/C/cygwin/GNUARM/bin/
                                                   build/ecrobot_base.o
                                                   build/ecrobot_bluetooth.o
 mode                                              /cygdrive/C/cygwin/nxtOSEK/ecrobot/../ecrobot/libecrobot.a(nxt_spi.oram)
+move_wheels                                       build/src/main.o
 nextpri                                           build/kernel/task_manage.o
                                                   build/kernel/task.o
                                                   build/kernel/resource.o
@@ -1215,7 +1215,6 @@ systick_wait_ms                                   /cygdrive/C/cygwin/nxtOSEK/ecr
                                                   /cygdrive/C/cygwin/nxtOSEK/ecrobot/../ecrobot/libecrobot.a(display.oram)
                                                   /cygdrive/C/cygwin/nxtOSEK/ecrobot/../ecrobot/libecrobot.a(udp.oram)
                                                   /cygdrive/C/cygwin/nxtOSEK/ecrobot/../ecrobot/libecrobot.a(colorsensor.o)
-                                                  build/src/main.o
                                                   build/ecrobot.o
                                                   build/ecrobot_base.o
                                                   build/ecrobot_bluetooth.o

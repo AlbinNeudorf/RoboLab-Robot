@@ -9,6 +9,6 @@
 
 /* add user headers here: */
 
-void hello_world();
+void move_wheels();
 
 #endif /* MAIN_H_ */
