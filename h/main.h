@@ -9,6 +9,8 @@
 
 /* add user headers here: */
 
-void move_wheels();
+void walkedge();
+void lichtwertausgabe();
+int lighttest();
 
 #endif /* MAIN_H_ */
