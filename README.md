@@ -30,3 +30,9 @@ extern SINT ecrobot_sound_tone(U32 freq, U32 ms, U32 vol);
 /* system hook functions */
 extern void ecrobot_device_initialize(void);
 extern void ecrobot_device_terminate(void);
+
+/* NXT internal status API */
+extern  U16 ecrobot_get_battery_voltage(void);
+extern  U32 ecrobot_get_systick_ms(void);
+extern   U8 ecrobot_is_ENTER_button_pressed(void);
+extern   U8 ecrobot_is_RUN_button_pressed(void);

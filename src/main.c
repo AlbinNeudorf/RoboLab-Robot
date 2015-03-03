@@ -15,13 +15,13 @@ void ecrobot_device_terminate(void) {
 void move_wheels() {
 	ecrobot_set_motor_speed(NXT_PORT_A,25);
 	ecrobot_set_motor_speed(NXT_PORT_B,40);
-
-
 }
+
+void turnrobot();
 
 TASK(OSEK_Main_Task) {
 	while (1) {
-		move_wheels();
+		turnrobot();
 		/* 500msec wait */
 		systick_wait_ms(500);
 	}
