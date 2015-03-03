@@ -17,7 +17,6 @@ void move_wheels() {
 	ecrobot_set_motor_speed(NXT_PORT_B,40);
 }
 
-void turnrobot();
 
 TASK(OSEK_Main_Task) {
 	while (1) {

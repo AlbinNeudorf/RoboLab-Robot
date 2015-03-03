@@ -11,6 +11,5 @@
 /* add user headers here: */
 
 void move_wheels();
-void turnrobot();
 
 #endif /* MAIN_H_ */
