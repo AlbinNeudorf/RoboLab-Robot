@@ -6,7 +6,6 @@
 /* Will be generated: */
 #include "kernel_id.h"
 #include "ecrobot_interface.h"
-#include "turnaround.h"
 
 /* add user headers here: */
 
